@@ -1,5 +1,7 @@
 # Upgrade King County
 
+![Build and Deploy](https://github.com/UpgradeKingCounty/upgradekingcounty.github.io/workflows/Build%20and%20Deploy/badge.svg)
+
 This is the repo for the Upgrade King County website
 
 ## Contributing
