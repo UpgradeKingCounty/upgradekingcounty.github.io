@@ -26,7 +26,7 @@ function Footer() {
       </div>
       <hr />
       <div className="footer-copyright-container">
-        <p>Copyright © {currentYear} Share the Cities</p>
+        <p>Copyright © {currentYear} Upgrade King County</p>
       </div>
     </div>
   );
