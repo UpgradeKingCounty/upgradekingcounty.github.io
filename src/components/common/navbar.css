@@ -7,6 +7,10 @@
   padding: 1rem 2rem;
 }
 
+.navbar-container a {
+  text-decoration: none;
+}
+
 .navbar-logo-container {
   margin: 0;
   padding: 0.5rem;
@@ -35,4 +39,13 @@
 .navbar-link-container a {
   margin: 0 0.5rem;
   color: black;
+}
+
+.navbar-link {
+  display: inline;
+  font-size: 20px; 
+}
+
+.navbar-container .navbar-link:hover {
+  text-decoration: underline;
 }

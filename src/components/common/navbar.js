@@ -18,19 +18,22 @@ const Navbar = ({ siteTitle }) => (
       </Link>
     </section>
     <section className="navbar-link-container">
-      <Link to="https://twitter.com/sharethecities">
-        <SiTwitter size="25px" />
+      <Link to="/about">
+        <h1 className="navbar-link">About Us</h1>
+      </Link>
+      <Link to="/updates">
+        <h1 className="navbar-link">Updates</h1>
       </Link>
     </section>
   </section>
 );
 
 Navbar.propTypes = {
-  siteTitle: PropTypes.string
+  siteTitle: PropTypes.string,
 };
 
 Navbar.defaultProps = {
-  siteTitle: ""
+  siteTitle: "",
 };
 
 export default Navbar;
