@@ -4,6 +4,10 @@
 
 This is the repo for the Upgrade King County website
 
+## Prerequisites
+
+- Node 12.13.0 or higher is required.
+
 ## Contributing
 
 - Fork the repo
@@ -49,7 +53,6 @@ directory.
 
 The header, footer, and other common components should be placed in the
 `src/components/common` directory. Unlike page content, these are written in JS + CSS.
-
 
 ## Deployment
 
