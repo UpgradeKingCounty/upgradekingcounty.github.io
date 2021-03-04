@@ -38,5 +38,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/UpgradeKingCounty/upgradekingcounty.github.io.git"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "trailingComma": "es5"
   }
 }
