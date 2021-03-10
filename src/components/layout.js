@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from "gatsby";
 
 import Navbar from "./common/navbar";
 import Footer from "./common/footer";
-import "./layout.css";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,26 +17,19 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div className="lg:container lg:mx-auto">
         <Navbar siteTitle={data.site.siteMetadata.title} />
-        <section
-          style={{
-            margin: "0 auto",
-            maxWidth: 900,
-            padding: "0px 1.0875rem 1.45rem",
-            paddingTop: 0
-          }}
-        >
+        <section className="ukc-body-content px-5 sm:px-8 leading-normal text-gray-600">
           {children}
         </section>
         <Footer />
-      </>
+      </div>
     )}
   />
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;
