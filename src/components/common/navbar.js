@@ -1,31 +1,22 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import logo from "../../images/upgrade-seattle-stc-logo.png";
-import { SiTwitter } from "react-icons/si";
-import "./navbar.css";
+import logo from "../../images/ukc-logo-m.svg";
+//import { SiTwitter } from "react-icons/si";
 
 const Navbar = ({ siteTitle }) => (
-  <section className="navbar-container">
-    <section className="navbar-logo-container">
-      <Link to="/" className="navbar-logo-link">
-        <img
-          className="navbar-logo"
-          src={logo}
-          alt="Share the Cities Broadband working group logo."
-        />
-        <h1 className="navbar-logo-text">{siteTitle}</h1>
-      </Link>
-    </section>
-    <section className="navbar-link-container">
-      <Link to="/about">
-        <h1 className="navbar-link">About Us</h1>
-      </Link>
-      <Link to="/updates">
-        <h1 className="navbar-link">Updates</h1>
-      </Link>
-    </section>
-  </section>
+  <nav className="px-5 sm:px-8 lg:px-0 py-4 flex items-center font-display font-bold uppercase">
+    <Link to="/" className="flex-grow mr-5">
+      <img src={logo} className="w-40 md:w-48" alt="Upgrade King County Logo" />
+      <h1 className="sr-only">{siteTitle}</h1>
+    </Link>
+    <Link to="/about" className="mr-5 text-green sm:text-lg md:text-xl">
+      About&nbsp;Us
+    </Link>
+    <Link to="/updates" className="text-green sm:text-lg md:text-xl">
+      Updates
+    </Link>
+  </nav>
 );
 
 Navbar.propTypes = {

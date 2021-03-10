@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1198px" height="435px" viewBox="0 0 1198 435" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ukc-logo-m</title>
+    <g id="ukc-logo-m" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" font-family="Montserrat-Bold, Montserrat" font-weight="bold">
+            <text id="Upgrade" font-size="236" fill="#77CB59">
+                <tspan x="0" y="228">UPGRADE</tspan>
+            </text>
+            <text id="King-County" font-size="163.5" fill="#00C1D6">
+                <tspan x="3" y="413">KING COUNTY</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(36.000000, 83.500000) scale(1, -1) translate(-36.000000, -83.500000) translate(10.500000, 7.000000)">
+            <rect id="Rectangle" fill="#77CB59" x="9.5" y="7" width="30" height="93"></rect>
+            <path d="M10.5,17.5007646 C10.5,40.8351173 0.5,57.1864667 0.5,99.9484834 C0.5,152.773194 4.25,136.422688 4.25,141.453613 C4.25,146.484538 4.25,149 5.5,149 C9.25,149 41.75,149 45.5,149 C46.75,149 46.75,146.484538 46.75,141.453613 C46.75,136.422688 50.5,152.773194 50.5,99.9484834 C50.5,47.1237733 40.5,40.8351173 40.5,17.5007646 C40.5,-5.83358819 10.5,-5.83358819 10.5,17.5007646 Z" id="Path-2" fill="#77CB59"></path>
+            <rect id="Rectangle" fill="#38A333" x="4.5" y="100" width="40" height="49"></rect>
+            <rect id="Rectangle" fill="#38A333" x="10.5" y="149" width="28" height="4"></rect>
+            <rect id="Rectangle" fill="#007766" x="18.5" y="96" width="13" height="38"></rect>
+            <rect id="Rectangle" fill="#005C6B" x="10.5" y="124" width="28" height="3"></rect>
+            <rect id="Rectangle" fill="#005C6B" transform="translate(12.000000, 134.500000) scale(-1, 1) translate(-12.000000, -134.500000) " x="11.5" y="127" width="1" height="15"></rect>
+            <rect id="Rectangle" fill="#005C6B" transform="translate(16.000000, 134.500000) scale(-1, 1) translate(-16.000000, -134.500000) " x="15.5" y="127" width="1" height="15"></rect>
+            <rect id="Rectangle" fill="#005C6B" transform="translate(19.000000, 134.500000) scale(-1, 1) translate(-19.000000, -134.500000) " x="18.5" y="127" width="1" height="15"></rect>
+            <rect id="Rectangle" fill="#005C6B" transform="translate(23.000000, 134.500000) scale(-1, 1) translate(-23.000000, -134.500000) " x="22.5" y="127" width="1" height="15"></rect>
+            <rect id="Rectangle" fill="#005C6B" transform="translate(27.000000, 134.500000) scale(-1, 1) translate(-27.000000, -134.500000) " x="26.5" y="127" width="1" height="15"></rect>
+            <rect id="Rectangle" fill="#005C6B" transform="translate(31.000000, 134.500000) scale(-1, 1) translate(-31.000000, -134.500000) " x="30.5" y="127" width="1" height="15"></rect>
+            <rect id="Rectangle" fill="#005C6B" transform="translate(34.000000, 134.500000) scale(-1, 1) translate(-34.000000, -134.500000) " x="33.5" y="127" width="1" height="15"></rect>
+            <rect id="Rectangle" fill="#005C6B" transform="translate(38.000000, 134.500000) scale(-1, 1) translate(-38.000000, -134.500000) " x="37.5" y="127" width="1" height="15"></rect>
+            <rect id="Rectangle" fill="#77CB59" transform="translate(12.000000, 147.500000) scale(-1, 1) translate(-12.000000, -147.500000) " x="11.5" y="142" width="1" height="11"></rect>
+            <rect id="Rectangle" fill="#77CB59" transform="translate(16.000000, 147.500000) scale(-1, 1) translate(-16.000000, -147.500000) " x="15.5" y="142" width="1" height="11"></rect>
+            <rect id="Rectangle" fill="#77CB59" transform="translate(19.000000, 147.500000) scale(-1, 1) translate(-19.000000, -147.500000) " x="18.5" y="142" width="1" height="11"></rect>
+            <rect id="Rectangle" fill="#77CB59" transform="translate(23.000000, 147.500000) scale(-1, 1) translate(-23.000000, -147.500000) " x="22.5" y="142" width="1" height="11"></rect>
+            <rect id="Rectangle" fill="#77CB59" transform="translate(27.000000, 147.500000) scale(-1, 1) translate(-27.000000, -147.500000) " x="26.5" y="142" width="1" height="11"></rect>
+            <rect id="Rectangle" fill="#77CB59" transform="translate(31.000000, 147.500000) scale(-1, 1) translate(-31.000000, -147.500000) " x="30.5" y="142" width="1" height="11"></rect>
+            <rect id="Rectangle" fill="#77CB59" transform="translate(34.000000, 147.500000) scale(-1, 1) translate(-34.000000, -147.500000) " x="33.5" y="142" width="1" height="11"></rect>
+            <rect id="Rectangle" fill="#77CB59" transform="translate(38.000000, 147.500000) scale(-1, 1) translate(-38.000000, -147.500000) " x="37.5" y="142" width="1" height="11"></rect>
+            <rect id="Rectangle" stroke="#006372" fill="#006170" x="7.5" y="19" width="37" height="4" rx="1.5"></rect>
+            <rect id="Rectangle" stroke="#006372" fill="#006170" x="7.5" y="27" width="37" height="4" rx="1.5"></rect>
+            <rect id="Rectangle" stroke="#006372" fill="#006170" x="6.5" y="36" width="39" height="4" rx="1.5"></rect>
+            <rect id="Rectangle" stroke="#006372" fill="#006170" x="5.5" y="45" width="41" height="4" rx="1.5"></rect>
+            <rect id="Rectangle" stroke="#006372" fill="#006170" x="3.5" y="54" width="45" height="4" rx="1.5"></rect>
+        </g>
+    </g>
+</svg>
