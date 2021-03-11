@@ -2,11 +2,9 @@ const path = require("path");
 
 let pathPrefix = "/";
 
-console.log(process.env);
-
 if (
-  process.env.GITHUB_REPOSITORY &&
-  !process.env.GITHUB_REPOSITORY.startsWith("UpgradeKingCounty/")
+  process.env.GITHUB_REPOSITORY_OWNER &&
+  process.env.GITHUB_REPOSITORY_OWNER != "UpgradeKingCounty"
 ) {
   // If we are running on a GitHub Action and it’s not the main repository, set
   // the path prefix so that resources will load properly when you view the site
