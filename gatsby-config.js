@@ -2,6 +2,8 @@ const path = require("path");
 
 let pathPrefix = "/";
 
+console.log(process.env);
+
 if (
   process.env.GITHUB_REPOSITORY &&
   !process.env.GITHUB_REPOSITORY.startsWith("UpgradeKingCounty/")
