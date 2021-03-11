@@ -63,6 +63,10 @@ fork's deployment.
 
 ### Preview the site on a GitHub fork
 
+- Fork this repository. Everything below will happen on the fork.
 - Turn on GitHub Pages in your fork repo (Settings → Options → GitHub Pages).
 - Select branch: `gh-pages`.
 - Select folder: `/ (root)`.
+- Enable Actions: click “I understand my workflows, go ahead and enable them” and then turn on workflows.
+- Push (or merge) changes to your fork’s `main` branch.
+- Preview the site at https://<YOUR_NAME>.github.io/upgradekingcounty.github.io/
