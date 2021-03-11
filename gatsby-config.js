@@ -1,12 +1,24 @@
 const path = require("path");
 
+let pathPrefix = "/";
+
+if (
+  process.env.GITHUB_REPOSITORY_OWNER &&
+  process.env.GITHUB_REPOSITORY_OWNER != "UpgradeKingCounty"
+) {
+  // If we are running on a GitHub Action and it’s not the main repository, set
+  // the path prefix so that resources will load properly when you view the site
+  // at https://<YOUR_NAME>.github.io/upgradekingcounty.github.io/
+  pathPrefix = "/upgradekingcounty.github.io";
+}
+
 module.exports = {
   siteMetadata: {
     title: "Upgrade King County",
     description: "Internet access for all.",
     author: "Share the Cities",
   },
-  pathPrefix: "/",
+  pathPrefix,
   plugins: [
     {
       resolve: `gatsby-plugin-mdx`,

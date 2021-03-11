@@ -60,3 +60,13 @@ This repository is configured so that whenever a change is pushed to `main` the 
 will be entirely built and redeployed. We currently do not have a staging or dev site.
 Recommended that if you want those, simply fork the repo and provide a link to your
 fork's deployment.
+
+### Preview the site on a GitHub fork
+
+- Fork this repository. Everything below will happen on the fork.
+- Turn on GitHub Pages in your fork repo (Settings → Options → GitHub Pages).
+- Select branch: `gh-pages`.
+- Select folder: `/ (root)`.
+- Enable Actions: click “I understand my workflows, go ahead and enable them” and then turn on workflows.
+- Push (or merge) changes to your fork’s `main` branch.
+- Preview the site at https://<YOUR_NAME>.github.io/upgradekingcounty.github.io/
