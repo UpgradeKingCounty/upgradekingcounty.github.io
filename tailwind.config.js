@@ -33,7 +33,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: () => ({
-        "hero-logo": "url('../images/ukc-logo-lg.svg')",
+        "hero-logo": "url('../images/ukc-hero.svg')",
       }),
     },
   },
