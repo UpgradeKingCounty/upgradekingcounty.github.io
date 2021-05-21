@@ -2,6 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
+import largeLogo from "../images/ukc-logo-lg.png";
+
+// For use in open graph image or similar where where a fully qualified URL is required.
+const CANONICAL_ORIGIN = "https://www.upgradekingcounty.org";
 
 function SEO({ description, lang, meta, keywords, title }) {
   return (
@@ -13,49 +17,53 @@ function SEO({ description, lang, meta, keywords, title }) {
         return (
           <Helmet
             htmlAttributes={{
-              lang
+              lang,
             }}
             title={title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
                 name: "description",
-                content: metaDescription
+                content: metaDescription,
               },
               {
                 property: "og:title",
-                content: title
+                content: title,
               },
               {
                 property: "og:description",
-                content: metaDescription
+                content: metaDescription,
+              },
+              {
+                property: "og:image",
+                content: CANONICAL_ORIGIN + largeLogo,
               },
               {
                 property: "og:type",
-                content: "website"
+                content: "website",
               },
               {
                 name: "twitter:card",
-                content: "summary"
+                content: "summary",
               },
               {
                 name: "twitter:creator",
-                content: data.site.siteMetadata.author
+                content: data.site.siteMetadata.author,
               },
               {
                 name: "twitter:title",
-                content: title
+                content: title,
               },
               {
                 name: "twitter:description",
-                content: metaDescription
-              }
+                content: metaDescription,
+              },
             ]
               .concat(
                 keywords.length > 0
                   ? {
                       name: "keywords",
-                      content: keywords.join(", ")
+                      content: keywords.join(", "),
                     }
                   : []
               )
@@ -70,7 +78,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: "en",
   meta: [],
-  keywords: []
+  keywords: [],
 };
 
 SEO.propTypes = {
@@ -78,7 +86,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
 };
 
 export default SEO;
