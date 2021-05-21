@@ -15,7 +15,7 @@ if (
 module.exports = {
   siteMetadata: {
     title: "Upgrade King County",
-    description: "Internet access for all.",
+    description: "Equitable Public Broadband for All",
     author: "Share the Cities",
   },
   pathPrefix,
