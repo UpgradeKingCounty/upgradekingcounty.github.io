@@ -52,7 +52,7 @@ module.exports = {
         background_color: "#fff",
         theme_color: "#fff",
         display: "minimal-ui",
-        icon: "src/images/upgrade-seattle-stc-logo.png", // This path is relative to the root of the site.
+        icon: "src/images/ukc-icon.png", // This path is relative to the root of the site.
       },
     },
     "gatsby-plugin-postcss",
