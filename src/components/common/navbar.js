@@ -5,7 +5,7 @@ import logo from "../../images/ukc-logo-m.svg";
 //import { SiTwitter } from "react-icons/si";
 
 const Navbar = ({ siteTitle }) => (
-  <nav className="px-5 sm:px-8 lg:px-0 py-4 flex items-center font-display font-bold uppercase">
+  <nav className="py-4 flex items-center font-display font-bold uppercase">
     <Link to="/" className="flex-grow mr-5">
       <img src={logo} className="w-40 md:w-48" alt="Upgrade King County Logo" />
       <h1 className="sr-only">{siteTitle}</h1>

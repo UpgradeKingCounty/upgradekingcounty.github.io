@@ -23,9 +23,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <MDXProvider components={SHORTCODES}>
-        <div className="lg:container lg:mx-auto">
+        <div className="lg:container lg:mx-auto px-5 sm:px-8">
           <Navbar siteTitle={data.site.siteMetadata.title} />
-          <section className="ukc-body-content px-5 sm:px-8 leading-normal text-gray-600">
+          <section className="ukc-body-content leading-normal text-gray-600">
             {children}
           </section>
           <Footer />
