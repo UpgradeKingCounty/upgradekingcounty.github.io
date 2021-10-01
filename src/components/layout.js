@@ -6,9 +6,10 @@ import { MDXProvider } from "@mdx-js/react";
 import Navbar from "./common/navbar";
 import Footer from "./common/footer";
 import SEO from "./seo";
+import ZineLink from "./common/zinelink";
 
 // Make these tags available in .mdx files without having to import them first.
-const SHORTCODES = { SEO };
+const SHORTCODES = { SEO, ZineLink };
 
 const Layout = ({ children }) => (
   <StaticQuery
